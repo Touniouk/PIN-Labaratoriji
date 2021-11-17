@@ -65,6 +65,7 @@
             <hr />
             <div id="Footer">
                 <footer>
+                    <hr />
                     <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
                 </footer>
             </div>
