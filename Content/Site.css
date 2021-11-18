@@ -9,7 +9,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 50px;
+    margin-top: 100px; /* Adjusted because the navbar is bigger now */
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -39,16 +39,8 @@ textarea {
     bottom: 0px;
 }
 
-
-navbar navbar-inverse navbar-fixed-top {
+/* Stack the login form in a column */
+.loginDetails {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
 }
-
-    navbar > div {
-        display: flex;
-    }
-
-    navbar .loginDetails {
-        flex-direction: column;
-    }
