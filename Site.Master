@@ -48,7 +48,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">PIN Labaratoriji</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
@@ -56,6 +56,13 @@
                         <li><a runat="server" href="~/About">About</a></li>
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
+                    <div class="LoginDetails">
+                        <asp:TextBox ID="Username" runat="server" Text="Username"></asp:TextBox>
+                        <asp:TextBox ID="Password" runat="server" Text="Password"></asp:TextBox>
+                        <asp:LinkButton ID="Login_Btn" runat="server" Text="Prijava" OnClick="LoginButton"></asp:LinkButton>
+                        <asp:Label ID="LoggedAs_Label" runat="server"></asp:Label>
+                        <asp:LinkButton ID="Logout_Btn" runat="server" Text="Odjava" OnClick="LogoutButton"></asp:LinkButton>
+                    </div>
                 </div>
             </div>
         </div>

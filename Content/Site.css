@@ -9,6 +9,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 50px;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -37,3 +38,17 @@ textarea {
     position: absolute;
     bottom: 0px;
 }
+
+
+navbar navbar-inverse navbar-fixed-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+    navbar > div {
+        display: flex;
+    }
+
+    navbar .loginDetails {
+        flex-direction: column;
+    }
